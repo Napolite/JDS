@@ -1,0 +1,72 @@
+.content {
+	color: grey;
+	width: 90%;
+	margin: 0 auto;
+	height: 95vh;
+	display: flex;
+}
+.left {
+	flex: 1;
+	min-height: 100%;
+}
+nav ul {
+    font-size:20px;
+    width:500px;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+.body{
+    padding:150px 0px 150px 100px;
+    line-height: 10px;
+    font-size:30px;
+}
+.design{ 
+    word-spacing: 5px;
+    color:rgb(12, 11, 11);
+    font-weight: 600;
+}
+.discovery{
+   
+    color:rgb(138, 136, 136);
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.right {
+    flex:1;
+	min-height: 100%;
+}
+.right img{
+    height:100%;
+    width:100%;
+}
+.designed{
+    font-size: 20px;
+    padding:20px 0px 0px 0px;
+}
+.name{
+    font-size:20px;
+    color:rgb(12,11,11);
+}
+.buttonside{
+    display: flex;
+    align-items: center;
+}
+
+.buttonside button{
+    margin-left: 20px;
+    height:30px;
+    width:100px;
+    background: transparent;
+    border: 3px solid skyblue;
+    border-radius:20px;
+}
+.footer{
+    /* position: relative;
+    top:150px;
+    font-size: 20px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px 120px 0px 0px;
+}
